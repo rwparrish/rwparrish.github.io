@@ -6,6 +6,7 @@ import About from '../components/About/About';
 import Yakka from '../assests/vids/react project walkthrough.mp4';
 import VideoId from '../assests/vids/VideoID web application.mp4';
 import ShopIt from '../assests/vids/Flatiron JS SPA Project.mp4';
+import NavBar from '../components/NavBar/NavBar'
 class App extends Component {
   state = {
     projects: [
@@ -18,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <NavBar/>
         <About/>
         <ProjectDemos
         projects={this.state.projects}/>
