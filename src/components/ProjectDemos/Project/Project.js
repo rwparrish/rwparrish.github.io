@@ -2,7 +2,7 @@ import React from 'react'
 
  const project = props => {
   return (
-    <div className="">
+    <div className="" id="projects">
       <h2>{props.title}</h2>
       <p>{props.description}</p>
       <div>

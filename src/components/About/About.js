@@ -1,6 +1,6 @@
 import React from 'react'
 
-const about = () => <h2>I'm a former elementary school teacher turned software engineer. 
+const about = () => <h2 id="about">I'm a former elementary school teacher turned software engineer. 
   I went from trying to understand little brains and managing behavior to trying to understand code and controlling output. 
   I'll let you decide which you think is more challenging. 
   Hint, computers do exactly what you tell them to do. Changing careers was no accident. 
